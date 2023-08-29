@@ -1,15 +1,27 @@
 import turtle as trtl 
 painter = trtl.Turtle()
-painter.color("blue")
-painter.fillcolor("red")
 
-for move in range(5):
-    painter.circle(20)
-    painter.fillcolor("blue")
+painter.penup()
+painter.goto(-50,160)
+painter.pendown()
+painter.shape("circle")
+painter.fillcolor("blue")
+
+
+for move in range(7):
+    painter.stamp()
     painter.penup()
-    painter.forward(50)
-    painter.right(75)
+    painter.forward(140)
+    painter.right(45)
     painter.pendown()
+
+    newnum = move % 2
+    if newnum == 0:
+        painter.fillcolor("red")
+    else: 
+        painter.fillcolor("blue")
+
+    
     
 
 wn = trtl.Screen()
