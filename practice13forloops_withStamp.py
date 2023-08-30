@@ -11,7 +11,7 @@ painter.fillcolor("blue")
 for move in range(7):
     painter.stamp()
     painter.penup()
-    painter.forward(140)
+    painter.forward(100)
     painter.right(45)
     painter.pendown()
 
@@ -20,6 +20,8 @@ for move in range(7):
         painter.fillcolor("red")
     else: 
         painter.fillcolor("blue")
+
+    
     
 
 wn = trtl.Screen()
