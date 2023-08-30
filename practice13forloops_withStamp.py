@@ -20,8 +20,6 @@ for move in range(7):
         painter.fillcolor("red")
     else: 
         painter.fillcolor("blue")
-
-    
     
 
 wn = trtl.Screen()
