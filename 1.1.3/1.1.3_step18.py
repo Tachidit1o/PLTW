@@ -25,11 +25,5 @@ for little_guy in range(num_of_floors):
     y += 5
 
 
-    
-
-
-
-
-
 wn = trtl.Screen()
 wn.mainloop()
