@@ -21,8 +21,7 @@ for move in range(7):
     else: 
         painter.fillcolor("blue")
 
-    
-    
+
 
 wn = trtl.Screen()
 wn.mainloop()
