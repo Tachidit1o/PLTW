@@ -22,8 +22,8 @@ for little_guy in range(num_of_floors):
         painter.penup()
         painter.pencolor("blue")
         x = 0
-    
-    if little_guy % 21 == 0:
+# Note: Students might get stuck with the following:
+    if little_guy % 21 == 0:     
         y = -150
 
     painter.goto(x, y)
