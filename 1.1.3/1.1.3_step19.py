@@ -23,9 +23,8 @@ for me in range(floors):
         painter.pencolor("red")
 
     y += 5
-
+Hello World 
 
 wn = trtl.Screen()
 wn.mainloop()
 
-Hello World 
