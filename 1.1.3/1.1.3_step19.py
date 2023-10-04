@@ -7,10 +7,10 @@ y = -200
 
 floors = 63
 
-    painter.penup()
-    painter.goto(x,y)
-    painter.pendown()
-    painter.forward(50)
+painter.penup()
+painter.goto(x,y)
+painter.pendown()
+painter.forward(50)
 
 for me in range(floors):
 
@@ -27,3 +27,5 @@ for me in range(floors):
 
 wn = trtl.Screen()
 wn.mainloop()
+
+Hello
