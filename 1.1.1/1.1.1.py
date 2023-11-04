@@ -9,8 +9,12 @@ painter.forward(100)
 painter.right(90)
 painter.forward(100)
 
-methodes_and_attributes = dir(painter)
+wn = trtl.Screen()
+wn.mainloop()
+
 """
+methodes_and_attributes = dir(painter)
+
 for index, item in enumerate(methodes_and_attributes):
     print(f"Index {index}: {item}")
 
@@ -22,6 +26,5 @@ for item in enumerate(methodes_and_attributes):
 
 
 
-wn = trtl.Screen()
-wn.mainloop()
+
 
