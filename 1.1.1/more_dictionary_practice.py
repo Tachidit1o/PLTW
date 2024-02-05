@@ -24,8 +24,6 @@ if (user_input == 'yes'):
                 break        
             else: 
                 print('You did not enter an existing category')
-                        
-
 else: 
     print('Great, have a good day then...')
 
