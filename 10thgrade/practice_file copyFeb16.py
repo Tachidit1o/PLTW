@@ -20,6 +20,16 @@ for count in range(height):
     else: 
         painter.pencolor('red')
 
+'''
+Code to add three colors: 
+
+    if (remainder > 8 ):
+        painter.pencolor('blue')
+    elif (remainder >4): 
+        painter.pencolor('red')
+    else: 
+        painter.pencolor('green')
+'''
     if count == 36:
         painter.penup()
         x = x + 100
